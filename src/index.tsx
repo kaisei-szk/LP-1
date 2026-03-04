@@ -397,7 +397,7 @@ function renderLP(): string {
           <p class="text-xs text-gray-500">崩れたら終わる感覚</p>
         </div>
         <div class="bg-gray-50 rounded-xl p-5 border border-gray-100 fade-up card-hover" style="transition-delay:0.1s">
-          <div class="text-yellow-500 mb-3"><i class="fas fa-books text-xl"></i></div>
+          <div class="text-yellow-500 mb-3"><i class="fas fa-book text-xl"></i></div>
           <p class="font-bold text-gray-800 text-sm mb-1">教材が増えるほど不安が増える</p>
           <p class="text-xs text-gray-500">何をやれば正解かわからない</p>
         </div>
