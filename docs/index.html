@@ -433,7 +433,10 @@
     </div>
 
     <!-- Before/After -->
-    <div class="grid md:grid-cols-2 gap-6 items-stretch mt-10 reveal">
+    <div class="relative grid md:grid-cols-2 gap-6 items-stretch mt-10 reveal">
+      <div class="hidden md:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full shadow-lg items-center justify-center z-20 pointer-events-none">
+        <i class="fas fa-arrow-right text-primary-600"></i>
+      </div>
       <div class="bg-red-50 rounded-3xl p-7 border-2 border-red-200 text-left">
         <div class="flex items-center gap-2 mb-5">
           <span class="w-9 h-9 bg-coral-500 text-white rounded-full flex items-center justify-center font-bold text-lg"><i class="fas fa-times text-sm"></i></span>
@@ -445,10 +448,7 @@
           <li class="flex gap-3 items-start"><i class="fas fa-frown text-coral-400 mt-0.5"></i><p class="text-sm text-gray-700">ミスの原因を<strong>自分で分析できない</strong></p></li>
         </ul>
       </div>
-      <div class="bg-blue-50 rounded-3xl p-7 border-2 border-primary-200 text-left relative">
-        <div class="absolute -left-5 top-1/2 -translate-y-1/2 hidden md:flex w-10 h-10 bg-white rounded-full shadow-lg items-center justify-center z-10">
-          <i class="fas fa-arrow-right text-primary-600"></i>
-        </div>
+      <div class="bg-blue-50 rounded-3xl p-7 border-2 border-primary-200 text-left">
         <div class="flex items-center gap-2 mb-5">
           <span class="w-9 h-9 bg-primary-500 text-white rounded-full flex items-center justify-center font-bold text-lg"><i class="fas fa-check text-sm"></i></span>
           <p class="font-round font-black text-primary-600 text-sm">オンライン医学部受験塾 メドパスを始めると…</p>
@@ -726,51 +726,53 @@
       <h2 class="font-round text-2xl sm:text-3xl font-black text-gray-800">受講開始までの流れ</h2>
       <p class="text-gray-500 text-sm mt-2">最短5日で伴走スタート</p>
     </div>
-    <div class="space-y-0 reveal">
-      <div class="flow-step flex gap-5 items-start pb-8">
+    <div class="reveal flex justify-center">
+      <div class="space-y-0 w-full max-w-xl">
+      <div class="flow-step flex gap-5 items-start pb-8 w-fit mx-auto">
         <div class="w-16 h-16 bg-primary-500 text-white rounded-2xl flex flex-col items-center justify-center font-round shrink-0 z-10 shadow-md">
           <span class="text-[10px] opacity-70">Flow</span><span class="font-black text-lg">01</span>
         </div>
-        <div class="pt-1.5">
+        <div class="pt-1.5 text-left w-[280px] sm:w-[360px]">
           <p class="font-round font-bold text-gray-800 text-lg">無料相談（30分）</p>
           <p class="text-sm text-gray-500 mt-1">まずはお気軽に。オンラインで完結します。</p>
         </div>
       </div>
-      <div class="flow-step flex gap-5 items-start pb-8">
+      <div class="flow-step flex gap-5 items-start pb-8 w-fit mx-auto">
         <div class="w-16 h-16 bg-primary-500 text-white rounded-2xl flex flex-col items-center justify-center font-round shrink-0 z-10 shadow-md">
           <span class="text-[10px] opacity-70">Flow</span><span class="font-black text-lg">02</span>
         </div>
-        <div class="pt-1.5">
+        <div class="pt-1.5 text-left w-[280px] sm:w-[360px]">
           <p class="font-round font-bold text-gray-800 text-lg">現状診断・志望校ヒアリング</p>
           <p class="text-sm text-gray-500 mt-1">あなたの「今」と「目標」を詳しく聞き取ります。</p>
         </div>
       </div>
-      <div class="flow-step flex gap-5 items-start pb-8">
+      <div class="flow-step flex gap-5 items-start pb-8 w-fit mx-auto">
         <div class="w-16 h-16 bg-primary-400 text-white rounded-2xl flex flex-col items-center justify-center font-round shrink-0 z-10 shadow-md">
           <span class="text-[10px] opacity-70">Flow</span><span class="font-black text-lg">03</span>
         </div>
-        <div class="pt-1.5">
+        <div class="pt-1.5 text-left w-[280px] sm:w-[360px]">
           <p class="font-round font-bold text-gray-800 text-lg">メンター決定</p>
           <p class="text-sm text-gray-500 mt-1">最適なメンターをマッチングしてご紹介。</p>
         </div>
       </div>
-      <div class="flow-step flex gap-5 items-start pb-8">
+      <div class="flow-step flex gap-5 items-start pb-8 w-fit mx-auto">
         <div class="w-16 h-16 bg-primary-400 text-white rounded-2xl flex flex-col items-center justify-center font-round shrink-0 z-10 shadow-md">
           <span class="text-[10px] opacity-70">Flow</span><span class="font-black text-lg">04</span>
         </div>
-        <div class="pt-1.5">
+        <div class="pt-1.5 text-left w-[280px] sm:w-[360px]">
           <p class="font-round font-bold text-gray-800 text-lg">初回オンボーディング（90分）</p>
           <p class="text-sm text-gray-500 mt-1">戦略設計・年間計画・初回の週次計画を作成。</p>
         </div>
       </div>
-      <div class="flex gap-5 items-start">
+      <div class="flex gap-5 items-start w-fit mx-auto">
         <div class="w-16 h-16 bg-orange-500 text-white rounded-2xl flex flex-col items-center justify-center font-round shrink-0 z-10 shadow-md">
           <span class="text-[10px] opacity-70">Flow</span><span class="font-black text-lg">05</span>
         </div>
-        <div class="pt-1.5">
+        <div class="pt-1.5 text-left w-[280px] sm:w-[360px]">
           <p class="font-round font-bold text-gray-800 text-lg">週次伴走スタート</p>
           <p class="text-sm text-primary-600 font-bold mt-1"><i class="fas fa-flag-checkered mr-1"></i>ここから毎週のサイクルが始まります</p>
         </div>
+      </div>
       </div>
     </div>
     <div class="text-center mt-10 reveal">
@@ -865,7 +867,7 @@
         <a href="#" class="hover:text-white transition">利用規約</a>
       </div>
     </div>
-    <p class="text-center text-xs text-gray-500">&copy; 2026 オンライン医学部受験塾 メドパス Inc. All rights reserved.</p>
+    <p class="text-center text-xs text-gray-500">&copy; 株式会社REMEDY</p>
   </div>
 </footer>
 

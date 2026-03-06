@@ -1,32 +1,11 @@
-```txt
-npm install
-npm run dev
-```
+# LP-1 (GitHub Pages)
 
-```txt
-npm run deploy
-```
+このリポジトリは GitHub Pages 公開用です。
 
-[For generating/synchronizing types based on your Worker configuration run](https://developers.cloudflare.com/workers/wrangler/commands/#types):
+## Edit
 
-```txt
-npm run cf-typegen
-```
+`docs/index.html` を直接編集してください。
 
-Pass the `CloudflareBindings` as generics when instantiation `Hono`:
+## Deploy
 
-```ts
-// src/index.ts
-const app = new Hono<{ Bindings: CloudflareBindings }>()
-```
-
-## GitHub Pages
-
-Generate static output for GitHub Pages:
-
-```txt
-npm run build:github-pages
-```
-
-This creates `docs/index.html`.  
-Push to `main` and GitHub Actions (`.github/workflows/deploy-pages.yml`) deploys it to GitHub Pages.
+`main` に push すると、`.github/workflows/deploy-pages.yml` により GitHub Pages へ自動デプロイされます。
