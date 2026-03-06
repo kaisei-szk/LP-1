@@ -12,7 +12,7 @@ function renderLP(): string {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MedPath｜医学部受験 オンラインメンタリング</title>
+  <title>オンライン医学部受験塾 メドパス｜医学部受験 オンラインメンタリング</title>
   <meta name="description" content="志望校から逆算して毎週やること・順番・量を設計。現役医学生メンターが伴走するオンラインメンタリング。">
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
@@ -221,9 +221,9 @@ function renderLP(): string {
 <header class="hdr-fixed">
   <div class="max-w-6xl mx-auto px-4 sm:px-6">
     <div class="flex items-center justify-between h-16">
-      <a href="#" class="font-round font-black text-xl text-primary-700 flex items-center gap-2">
+      <a href="#" class="font-sans font-extrabold text-lg sm:text-xl tracking-tight text-primary-700 flex items-center gap-2">
         <span class="w-9 h-9 bg-primary-100 rounded-full flex items-center justify-center text-primary-600 text-sm"><i class="fas fa-graduation-cap"></i></span>
-        MedPath
+        オンライン医学部受験塾 メドパス
       </a>
       <nav class="hidden lg:flex items-center gap-5 text-[13px] font-bold text-gray-500">
         <a href="#worries" class="hover:text-primary-600 transition">悩み</a>
@@ -357,7 +357,7 @@ function renderLP(): string {
           <p class="text-sm text-gray-700 font-round">
             <strong class="text-primary-700">お任せください！</strong><br>
             勉強がうまくいかないのには<br>ちゃんと<strong>「理由」</strong>があります。<br>
-            MedPathがその理由を解決します。
+            オンライン医学部受験塾 メドパスがその理由を解決します。
           </p>
         </div>
       </div>
@@ -379,7 +379,7 @@ function renderLP(): string {
 <section class="bg-soft-blue py-20 md:py-28">
   <div class="max-w-4xl mx-auto px-4 sm:px-6">
     <div class="text-center reveal">
-      <span class="inline-block bg-primary-100 text-primary-700 font-round font-bold text-xs px-4 py-1.5 rounded-full mb-6"><i class="fas fa-lightbulb mr-1"></i>MedPathの根幹にある考え方</span>
+      <span class="inline-block bg-primary-100 text-primary-700 font-round font-bold text-xs px-4 py-1.5 rounded-full mb-6"><i class="fas fa-lightbulb mr-1"></i>オンライン医学部受験塾 メドパスの根幹にある考え方</span>
       <h2 class="font-round text-2xl sm:text-3xl lg:text-4xl font-black text-gray-800 leading-[1.7] mb-4">
         どの予備校に通っても、<br>
         成績が伸びない生徒がいる。
@@ -391,7 +391,7 @@ function renderLP(): string {
       <p class="text-gray-600 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto mb-10">
         本当に伸びる生徒は、授業を受ける量が多いのではなく、<br class="hidden sm:inline">
         <strong class="text-gray-800">「自分で考え、自分で計画し、自分で修正する力」</strong>を持っています。<br><br>
-        MedPathは、授業をしません。<br>
+        オンライン医学部受験塾 メドパスは、授業をしません。<br>
         その代わり、<strong class="text-primary-700">「自分で考えて学ぶ力」</strong>を育てることに特化しています。
       </p>
       <div class="grid sm:grid-cols-3 gap-4 max-w-3xl mx-auto mb-10">
@@ -419,7 +419,7 @@ function renderLP(): string {
       </div>
       <p class="text-gray-500 text-sm max-w-xl mx-auto">
         このサイクルを自分で回せる人が、<strong class="text-gray-800">最終的に一番伸びる。</strong><br>
-        MedPathは、その力をつけるためのメンタリングサービスです。
+        オンライン医学部受験塾 メドパスは、その力をつけるためのメンタリングサービスです。
       </p>
     </div>
   </div>
@@ -431,9 +431,9 @@ function renderLP(): string {
 <section class="bg-soft-green py-16 md:py-20">
   <div class="max-w-5xl mx-auto px-4 sm:px-6 text-center">
     <div class="reveal">
-      <p class="text-primary-600 font-round font-bold text-sm mb-4">About MedPath</p>
+      <p class="text-primary-600 font-round font-bold text-sm mb-4">About オンライン医学部受験塾 メドパス</p>
       <h2 class="font-round text-2xl sm:text-3xl font-black text-gray-800 leading-tight mb-5">
-        MedPathは授業をしません。<br>
+        オンライン医学部受験塾 メドパスは授業をしません。<br>
         <span class="marker-blue">「自分で考えて伸びる力」</span>を育てます。
       </h2>
       <p class="text-gray-600 text-sm leading-relaxed max-w-2xl mx-auto">
@@ -460,7 +460,7 @@ function renderLP(): string {
         </div>
         <div class="flex items-center gap-2 mb-5">
           <span class="w-9 h-9 bg-primary-500 text-white rounded-full flex items-center justify-center font-bold text-lg"><i class="fas fa-check text-sm"></i></span>
-          <p class="font-round font-black text-primary-600 text-sm">MedPathを始めると…</p>
+          <p class="font-round font-black text-primary-600 text-sm">オンライン医学部受験塾 メドパスを始めると…</p>
         </div>
         <ul class="space-y-4">
           <li class="flex gap-3 items-start"><i class="fas fa-smile text-primary-500 mt-0.5"></i><p class="text-sm text-gray-700"><strong class="text-primary-700">自分で計画を立て</strong>、やることに迷わない</p></li>
@@ -529,7 +529,7 @@ function renderLP(): string {
             <h3 class="font-round font-black text-xl text-gray-800"><span class="marker-yellow">相性ピッタリ</span>のメンター</h3>
           </div>
         </div>
-        <p class="text-sm text-gray-600 leading-relaxed mb-6">MedPathでは「勉強のモチベーション」を大事にしています。志望校合格経験のあるメンターが、受験のリアルを共有しながら、楽しく伴走します。</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-6">オンライン医学部受験塾 メドパスでは「勉強のモチベーション」を大事にしています。志望校合格経験のあるメンターが、受験のリアルを共有しながら、楽しく伴走します。</p>
         <div>
           <div class="flex items-end gap-3 mb-6">
             <div class="avatar-circle bg-warm-100 shrink-0 w-10 h-10"><i class="fas fa-female text-amber-600 text-sm"></i></div>
@@ -595,7 +595,7 @@ function renderLP(): string {
 <section id="mentors" class="bg-soft-blue py-16 md:py-20">
   <div class="max-w-5xl mx-auto px-4 sm:px-6">
     <div class="text-center mb-10 reveal">
-      <span class="inline-block bg-warm-200 text-amber-700 font-round font-bold text-xs px-4 py-1.5 rounded-full mb-4"><i class="fas fa-star mr-1"></i>MedPath最大の特長</span>
+      <span class="inline-block bg-warm-200 text-amber-700 font-round font-bold text-xs px-4 py-1.5 rounded-full mb-4"><i class="fas fa-star mr-1"></i>オンライン医学部受験塾 メドパス最大の特長</span>
       <h2 class="font-round text-2xl sm:text-3xl font-black text-gray-800 leading-tight">
         志望校の<span class="marker-yellow">"先輩"</span>が<br>受験のリアルを教えてくれる
       </h2>
@@ -797,13 +797,13 @@ function renderLP(): string {
       <h2 class="font-round text-2xl sm:text-3xl font-black text-gray-800">よくある質問</h2>
     </div>
     <div class="space-y-3 reveal" id="faqList">
-      <div class="faq-item"><button class="faq-btn w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)"><span class="font-round font-bold text-sm text-gray-800 pr-4">Q. 授業はしないんですか？</span><span class="w-8 h-8 bg-primary-50 rounded-full flex items-center justify-center shrink-0"><i class="fas fa-chevron-down text-primary-500 text-xs faq-chevron"></i></span></button><div class="faq-answer px-5"><p class="text-sm text-gray-600 leading-relaxed pb-4">MedPathは「授業」ではなく「勉強法の設計と伴走」に特化しています。教科の指導が必要な場合は、プレミアムプランで解説を行います。</p></div></div>
+      <div class="faq-item"><button class="faq-btn w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)"><span class="font-round font-bold text-sm text-gray-800 pr-4">Q. 授業はしないんですか？</span><span class="w-8 h-8 bg-primary-50 rounded-full flex items-center justify-center shrink-0"><i class="fas fa-chevron-down text-primary-500 text-xs faq-chevron"></i></span></button><div class="faq-answer px-5"><p class="text-sm text-gray-600 leading-relaxed pb-4">オンライン医学部受験塾 メドパスは「授業」ではなく「勉強法の設計と伴走」に特化しています。教科の指導が必要な場合は、プレミアムプランで解説を行います。</p></div></div>
       <div class="faq-item"><button class="faq-btn w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)"><span class="font-round font-bold text-sm text-gray-800 pr-4">Q. 志望校メンターは必ず付きますか？</span><span class="w-8 h-8 bg-primary-50 rounded-full flex items-center justify-center shrink-0"><i class="fas fa-chevron-down text-primary-500 text-xs faq-chevron"></i></span></button><div class="faq-answer px-5"><p class="text-sm text-gray-600 leading-relaxed pb-4">「優先アサイン」制度のため、完全一致を保証するものではありません。近い大学群や同系統のメンターをアサインするなど、可能な限り最適なマッチングを行います。</p></div></div>
       <div class="faq-item"><button class="faq-btn w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)"><span class="font-round font-bold text-sm text-gray-800 pr-4">Q. 返金はありますか？</span><span class="w-8 h-8 bg-primary-50 rounded-full flex items-center justify-center shrink-0"><i class="fas fa-chevron-down text-primary-500 text-xs faq-chevron"></i></span></button><div class="faq-answer px-5"><p class="text-sm text-gray-600 leading-relaxed pb-4">初回オンボーディング完了後7日以内にご満足いただけなかった場合、全額返金いたします。詳細は利用規約に記載しています。</p></div></div>
       <div class="faq-item"><button class="faq-btn w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)"><span class="font-round font-bold text-sm text-gray-800 pr-4">Q. 親だけの相談もできますか？</span><span class="w-8 h-8 bg-primary-50 rounded-full flex items-center justify-center shrink-0"><i class="fas fa-chevron-down text-primary-500 text-xs faq-chevron"></i></span></button><div class="faq-answer px-5"><p class="text-sm text-gray-600 leading-relaxed pb-4">はい、保護者の方だけのご相談も大歓迎です。お子さまの学習状況の共有や受験戦略のご相談を承ります。</p></div></div>
       <div class="faq-item"><button class="faq-btn w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)"><span class="font-round font-bold text-sm text-gray-800 pr-4">Q. 推薦・面接にも対応しますか？</span><span class="w-8 h-8 bg-primary-50 rounded-full flex items-center justify-center shrink-0"><i class="fas fa-chevron-down text-primary-500 text-xs faq-chevron"></i></span></button><div class="faq-answer px-5"><p class="text-sm text-gray-600 leading-relaxed pb-4">プレミアムプランでは小論文添削・面接対策に対応しています。メンター自身の推薦入試経験を活かしたアドバイスが好評です。</p></div></div>
       <div class="faq-item"><button class="faq-btn w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)"><span class="font-round font-bold text-sm text-gray-800 pr-4">Q. どのレベルから対象ですか？</span><span class="w-8 h-8 bg-primary-50 rounded-full flex items-center justify-center shrink-0"><i class="fas fa-chevron-down text-primary-500 text-xs faq-chevron"></i></span></button><div class="faq-answer px-5"><p class="text-sm text-gray-600 leading-relaxed pb-4">偏差値40台から国公立志望まで幅広く対応しています。重要なのは偏差値ではなく「勝てるやり方を固定すること」です。</p></div></div>
-      <div class="faq-item"><button class="faq-btn w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)"><span class="font-round font-bold text-sm text-gray-800 pr-4">Q. 塾や予備校と併用できますか？</span><span class="w-8 h-8 bg-primary-50 rounded-full flex items-center justify-center shrink-0"><i class="fas fa-chevron-down text-primary-500 text-xs faq-chevron"></i></span></button><div class="faq-answer px-5"><p class="text-sm text-gray-600 leading-relaxed pb-4">もちろんです。MedPathは「学習戦略の設計」に特化しているため、既存の塾との併用で最大の効果を発揮します。</p></div></div>
+      <div class="faq-item"><button class="faq-btn w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)"><span class="font-round font-bold text-sm text-gray-800 pr-4">Q. 塾や予備校と併用できますか？</span><span class="w-8 h-8 bg-primary-50 rounded-full flex items-center justify-center shrink-0"><i class="fas fa-chevron-down text-primary-500 text-xs faq-chevron"></i></span></button><div class="faq-answer px-5"><p class="text-sm text-gray-600 leading-relaxed pb-4">もちろんです。オンライン医学部受験塾 メドパスは「学習戦略の設計」に特化しているため、既存の塾との併用で最大の効果を発揮します。</p></div></div>
       <div class="faq-item"><button class="faq-btn w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)"><span class="font-round font-bold text-sm text-gray-800 pr-4">Q. 面談の曜日・時間は選べますか？</span><span class="w-8 h-8 bg-primary-50 rounded-full flex items-center justify-center shrink-0"><i class="fas fa-chevron-down text-primary-500 text-xs faq-chevron"></i></span></button><div class="faq-answer px-5"><p class="text-sm text-gray-600 leading-relaxed pb-4">メンターとの調整により、平日夕方〜夜・土日にも対応可能です。オンラインサービスを使うので自宅からどこでも受講できます。</p></div></div>
       <div class="faq-item"><button class="faq-btn w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)"><span class="font-round font-bold text-sm text-gray-800 pr-4">Q. 途中でプラン変更はできますか？</span><span class="w-8 h-8 bg-primary-50 rounded-full flex items-center justify-center shrink-0"><i class="fas fa-chevron-down text-primary-500 text-xs faq-chevron"></i></span></button><div class="faq-answer px-5"><p class="text-sm text-gray-600 leading-relaxed pb-4">月単位でのプラン変更が可能です。ライトで試し、手応えを感じたらスタンダードに切り替える方も多いです。</p></div></div>
       <div class="faq-item"><button class="faq-btn w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)"><span class="font-round font-bold text-sm text-gray-800 pr-4">Q. 高1・高2からでも意味がありますか？</span><span class="w-8 h-8 bg-primary-50 rounded-full flex items-center justify-center shrink-0"><i class="fas fa-chevron-down text-primary-500 text-xs faq-chevron"></i></span></button><div class="faq-answer px-5"><p class="text-sm text-gray-600 leading-relaxed pb-4">大いにあります。早期に「勉強の型」を身につけることで、高3時の伸びが大きく変わります。</p></div></div>
@@ -818,7 +818,7 @@ function renderLP(): string {
 <section id="final-cta" class="bg-soft-blue py-20 md:py-28">
   <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
     <div class="reveal">
-      <p class="text-primary-600 font-round font-bold text-sm mb-6">MedPathに少しでもご興味を持っていただけましたか？</p>
+      <p class="text-primary-600 font-round font-bold text-sm mb-6">オンライン医学部受験塾 メドパスに少しでもご興味を持っていただけましたか？</p>
       <h2 class="font-round text-2xl sm:text-3xl lg:text-4xl font-black text-gray-800 leading-tight mb-4">
         まずは30分。<br>"今週の勝ち筋"だけ<br class="sm:hidden">持ち帰ってください。
       </h2>
@@ -865,7 +865,7 @@ function renderLP(): string {
     <div class="flex flex-col md:flex-row items-center justify-between gap-5 mb-6">
       <span class="font-round font-bold text-lg text-white/80 flex items-center gap-2">
         <span class="w-7 h-7 bg-white/10 rounded-full flex items-center justify-center text-xs"><i class="fas fa-graduation-cap"></i></span>
-        MedPath
+        オンライン医学部受験塾 メドパス
       </span>
       <div class="flex flex-wrap justify-center gap-3 text-xs text-gray-400">
         <a href="#" class="hover:text-white transition">運営者情報</a>
@@ -874,7 +874,7 @@ function renderLP(): string {
         <a href="#" class="hover:text-white transition">利用規約</a>
       </div>
     </div>
-    <p class="text-center text-xs text-gray-500">&copy; 2026 MedPath Inc. All rights reserved.</p>
+    <p class="text-center text-xs text-gray-500">&copy; 2026 オンライン医学部受験塾 メドパス Inc. All rights reserved.</p>
   </div>
 </footer>
 
