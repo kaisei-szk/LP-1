@@ -455,7 +455,7 @@ function renderLP(): string {
         </ul>
       </div>
       <div class="bg-blue-50 rounded-3xl p-7 border-2 border-primary-200 text-left relative">
-        <div class="absolute -left-5 top-1/2 -translate-y-1/2 hidden md:flex w-10 h-10 bg-white rounded-full shadow-lg items-center justify-center z-10">
+        <div class="absolute -left-11 top-1/2 -translate-y-1/2 hidden md:flex w-10 h-10 bg-white rounded-full shadow-lg items-center justify-center z-10 pointer-events-none">
           <i class="fas fa-arrow-right text-primary-600"></i>
         </div>
         <div class="flex items-center gap-2 mb-5">
@@ -735,8 +735,8 @@ function renderLP(): string {
       <h2 class="font-round text-2xl sm:text-3xl font-black text-gray-800">受講開始までの流れ</h2>
       <p class="text-gray-500 text-sm mt-2">最短5日で伴走スタート</p>
     </div>
-    <div class="space-y-0 reveal">
-      <div class="flow-step flex gap-5 items-start pb-8">
+    <div class="space-y-0 reveal max-w-xl mx-auto">
+      <div class="flow-step flex gap-5 items-start pb-8 w-full">
         <div class="w-16 h-16 bg-primary-500 text-white rounded-2xl flex flex-col items-center justify-center font-round shrink-0 z-10 shadow-md">
           <span class="text-[10px] opacity-70">Flow</span><span class="font-black text-lg">01</span>
         </div>
@@ -745,7 +745,7 @@ function renderLP(): string {
           <p class="text-sm text-gray-500 mt-1">まずはお気軽に。オンラインで完結します。</p>
         </div>
       </div>
-      <div class="flow-step flex gap-5 items-start pb-8">
+      <div class="flow-step flex gap-5 items-start pb-8 w-full">
         <div class="w-16 h-16 bg-primary-500 text-white rounded-2xl flex flex-col items-center justify-center font-round shrink-0 z-10 shadow-md">
           <span class="text-[10px] opacity-70">Flow</span><span class="font-black text-lg">02</span>
         </div>
@@ -754,7 +754,7 @@ function renderLP(): string {
           <p class="text-sm text-gray-500 mt-1">あなたの「今」と「目標」を詳しく聞き取ります。</p>
         </div>
       </div>
-      <div class="flow-step flex gap-5 items-start pb-8">
+      <div class="flow-step flex gap-5 items-start pb-8 w-full">
         <div class="w-16 h-16 bg-primary-400 text-white rounded-2xl flex flex-col items-center justify-center font-round shrink-0 z-10 shadow-md">
           <span class="text-[10px] opacity-70">Flow</span><span class="font-black text-lg">03</span>
         </div>
@@ -763,7 +763,7 @@ function renderLP(): string {
           <p class="text-sm text-gray-500 mt-1">最適なメンターをマッチングしてご紹介。</p>
         </div>
       </div>
-      <div class="flow-step flex gap-5 items-start pb-8">
+      <div class="flow-step flex gap-5 items-start pb-8 w-full">
         <div class="w-16 h-16 bg-primary-400 text-white rounded-2xl flex flex-col items-center justify-center font-round shrink-0 z-10 shadow-md">
           <span class="text-[10px] opacity-70">Flow</span><span class="font-black text-lg">04</span>
         </div>
@@ -772,7 +772,7 @@ function renderLP(): string {
           <p class="text-sm text-gray-500 mt-1">戦略設計・年間計画・初回の週次計画を作成。</p>
         </div>
       </div>
-      <div class="flex gap-5 items-start">
+      <div class="flex gap-5 items-start w-full">
         <div class="w-16 h-16 bg-orange-500 text-white rounded-2xl flex flex-col items-center justify-center font-round shrink-0 z-10 shadow-md">
           <span class="text-[10px] opacity-70">Flow</span><span class="font-black text-lg">05</span>
         </div>
@@ -874,7 +874,7 @@ function renderLP(): string {
         <a href="#" class="hover:text-white transition">利用規約</a>
       </div>
     </div>
-    <p class="text-center text-xs text-gray-500">&copy; 2026 オンライン医学部受験塾 メドパス Inc. All rights reserved.</p>
+    <p class="text-center text-xs text-gray-500">&copy; 株式会社REMEDY</p>
   </div>
 </footer>
 
