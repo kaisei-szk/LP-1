@@ -229,19 +229,6 @@
             <i class="fas fa-calendar-check mr-1"></i>無料相談 30分
           </a>
         </div>
-        <button id="mobMenuBtn" class="text-primary-600 p-2"><i class="fas fa-bars text-xl"></i></button>
-      </div>
-    </div>
-  </div>
-  <div id="mobMenu" class="hidden bg-white shadow-lg rounded-b-2xl mx-3 border border-primary-100">
-    <div class="py-3 px-5 flex flex-col gap-1 text-sm font-bold text-gray-600">
-      <a href="#worries" class="mm-link py-2.5 hover:text-primary-600">悩み</a>
-      <a href="#how" class="mm-link py-2.5 hover:text-primary-600">特長</a>
-      <a href="#mentors" class="mm-link py-2.5 hover:text-primary-600">メンター</a>
-      <a href="#plans" class="mm-link py-2.5 hover:text-primary-600">プラン</a>
-      <a href="#faq" class="mm-link py-2.5 hover:text-primary-600">FAQ</a>
-      <div class="pt-2 mt-1 border-t">
-        <a href="#final-cta" class="block text-center text-xs bg-orange-500 text-white font-bold py-2.5 rounded-lg">無料相談 30分</a>
       </div>
     </div>
   </div>
@@ -899,14 +886,6 @@ document.addEventListener('DOMContentLoaded', function() {
     entries.forEach(function(e) { if (e.isIntersecting) e.target.classList.add('show'); });
   }, { threshold: 0.06, rootMargin: '0px 0px -40px 0px' });
   document.querySelectorAll('.reveal').forEach(function(el) { io.observe(el); });
-
-  // Mobile menu
-  document.getElementById('mobMenuBtn').addEventListener('click', function() {
-    document.getElementById('mobMenu').classList.toggle('hidden');
-  });
-  document.querySelectorAll('.mm-link').forEach(function(l) {
-    l.addEventListener('click', function() { document.getElementById('mobMenu').classList.add('hidden'); });
-  });
 
   // Smooth scroll
   document.querySelectorAll('a[href^="#"]').forEach(function(a) {
