@@ -583,7 +583,7 @@ function renderLP(): string {
 <div class="cta-band-orange py-5">
   <div class="max-w-4xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-center gap-3">
     <p class="text-white font-round font-bold text-sm text-center">志望校メンターの空き状況、聞いてみませんか？</p>
-    <a href="#final-cta" class="bg-white text-orange-600 font-round font-bold text-sm px-6 py-3 rounded-full transition hover:bg-orange-50 shadow-lg">
+    <a href="#final-cta" class="js-booking-link bg-white text-orange-600 font-round font-bold text-sm px-6 py-3 rounded-full transition hover:bg-orange-50 shadow-lg">
       無料相談を予約する <i class="fas fa-arrow-right ml-1"></i>
     </a>
   </div>
@@ -682,7 +682,7 @@ function renderLP(): string {
           <li class="flex gap-2 text-gray-300"><i class="fas fa-minus mt-0.5"></i>解説サポート</li>
           <li class="flex gap-2 text-gray-300"><i class="fas fa-minus mt-0.5"></i>添削・面接対策</li>
         </ul>
-        <a href="#final-cta" class="mt-auto block cta-primary text-sm py-3.5 justify-center min-h-[44px] flex items-center">無料相談を予約する</a>
+        <a href="#final-cta" class="js-booking-link mt-auto block cta-primary text-sm py-3.5 justify-center min-h-[44px] flex items-center">無料相談を予約する</a>
       </div>
       <div class="plan-card text-center flex flex-col h-full">
         <p class="text-xs font-bold text-gray-400 tracking-widest mb-1">PREMIUM</p>
@@ -851,9 +851,10 @@ function renderLP(): string {
     </div>
 
     <div class="reveal">
-      <a href="#" class="cta-primary text-lg py-5 px-10 justify-center shadow-xl">
+      <a href="#" class="js-booking-link cta-primary text-lg py-5 px-10 justify-center shadow-xl">
         <i class="fas fa-calendar-check"></i>無料相談（30分）を予約する
       </a>
+      <p class="text-xs text-gray-500 mt-3">クリックすると Google カレンダーで 30分面談の予約画面が開きます。</p>
     </div>
   </div>
 </section>
@@ -887,6 +888,19 @@ function renderLP(): string {
 <!-- ===== JAVASCRIPT ===== -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  var BOOKING_URL = 'https://calendar.app.google/j6aVUkQd6F8n5J888';
+
+  document.querySelectorAll('.js-booking-link').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      window.open(BOOKING_URL, '_blank', 'noopener,noreferrer');
+    });
+    link.setAttribute('href', BOOKING_URL);
+    link.setAttribute('target', '_blank');
+    link.setAttribute('rel', 'noopener noreferrer');
+  });
+
   // Scroll reveal
   var io = new IntersectionObserver(function(entries) {
     entries.forEach(function(e) { if (e.isIntersecting) e.target.classList.add('show'); });
